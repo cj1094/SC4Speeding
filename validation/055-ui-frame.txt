@@ -1,0 +1,1 @@
+PASS: Crime frame grows20px to match light panel, original frame hidden; normal frame/geometry restored on switch

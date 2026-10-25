@@ -1,0 +1,29 @@
+PASS: Failure no matching Sedan/Sports exemplar: 32; failure diagnosed without a visible scene
+GZDllGetGZCOMDirector: game requested plugin director.
+SC4Speeding 0.50 experimental native DLL loaded; in-game behavior unverified.
+Ready. Native monthly crime selection active (weight4); Ctrl+Shift+F10 requests a test scene.
+Native Speeding category loaded: weight4 and nonzero lot filters.
+Speed Traps: waiting for host registration.
+City attached; isolated incident-array hook installed.
+Crime UI rect root before 461 253 1007 681
+Crime UI rect container before 461 253 1007 681
+Crime UI rect container before 0 0 546 428
+Crime UI rect backing before 0 0 546 428
+Crime UI rect container before 0 298 546 428
+Crime UI rect container before 0 346 546 476
+Crime UI: Crime selected; compatible panel enlarged upward by 24 pixels.
+Speed Traps: registered; ordinance host controls eligibility requirements.
+Native monthly crime selection: Speeding visual queued near selected lot.
+Spawn search #1
+Search scope: selected native crime lot, radius48m.
+Search attempts: 32
+Search returned points: 32
+Search distinct XZ points (within0.1m): 1
+Search repeated points: 31
+Failure no matching Sedan/Sports exemplar: 32
+First rejected position X cm: 10000
+First rejected position Z cm: 10000
+Search result: all candidates rejected; see failure counts above.
+Speeding scene skipped: see preceding search diagnostics.
+City detached.
+

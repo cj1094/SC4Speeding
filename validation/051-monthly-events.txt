@@ -1,0 +1,1 @@
+PASS: no timer starts after125seconds; ignore other crime IDs; selected native events produce one visual each, queue serially and clean up

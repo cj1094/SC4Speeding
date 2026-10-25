@@ -1,0 +1,2 @@
+#pragma once
+namespace std { inline bool isfinite(double n){return __builtin_isfinite(n);} inline bool isfinite(float n){return __builtin_isfinite(n);} }

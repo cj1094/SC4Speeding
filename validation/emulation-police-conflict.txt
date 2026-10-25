@@ -1,0 +1,1 @@
+PASS: differing police interface cancels scene without replacing its table or starting siren

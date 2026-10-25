@@ -1,0 +1,1 @@
+PASS: unavailable/missing ordinance or non-adjacent/non-R$/CS$ lot blocks scenes without visible actors/marker

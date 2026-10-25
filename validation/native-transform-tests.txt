@@ -1,0 +1,3 @@
+PASS: native 0x80B830 produces column-based direction/up matrices for four headings.
+PASS: original 0x509440 forwards all 56 transform bytes to a model and cleans its thiscall argument.
+Reference EXE helpers only; actual model rendering and the game loop are not tested.

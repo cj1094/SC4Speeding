@@ -1,0 +1,28 @@
+{
+  "layouts": [
+    "00000000-96a006b0-ea287193",
+    "00000000-96a006b0-2bc9060f",
+    "00000000-96a006b0-0b72f276"
+  ],
+  "static_root_height_increase": 0,
+  "runtime_root_height_increase": 24,
+  "independent_full_height_backing": true,
+  "compact_background_supported": true,
+  "upper_panel_shift_y": -24,
+  "radio_screen_shift_y": 0,
+  "native_map_size": [
+    256,
+    256
+  ],
+  "key_row": [
+    260,
+    280
+  ],
+  "icon_tgi": [
+    2238569388,
+    1184892592,
+    4126015600
+  ],
+  "resources": 8,
+  "in_game_verified": false
+}

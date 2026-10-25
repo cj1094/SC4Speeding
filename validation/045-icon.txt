@@ -1,0 +1,1 @@
+PASS: only native minimap icon resource changed; formerly transparent pixels are opaque black; all gauge pixels unchanged. Crime key/UI/DLL/ordinance unchanged. Real game appearance not tested.

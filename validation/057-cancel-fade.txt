@@ -1,0 +1,1 @@
+PASS: city shutdown during vehicle fade releases each actor once and restores hook/lights

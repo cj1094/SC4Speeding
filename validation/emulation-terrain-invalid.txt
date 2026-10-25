@@ -1,0 +1,1 @@
+PASS: unavailable/invalid terrain aborts before showing or moving the scene

@@ -1,0 +1,4 @@
+PASS: only legend PNG and native minimap FSH changed; all layouts/backgrounds/crime exemplar byte-identical.
+PASS: legend is exact uploaded16x20 PNG; minimap16x16 nativeSHPI BGRA with transparent background and red needle.
+UI DAT SHA256: e7e4d10f74123cf3f885797a4bd430416b6f6cff32b85ac67ba7d173cce612f9
+Real game rendering not tested.

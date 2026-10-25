@@ -1,0 +1,2 @@
+PASS: original EXE6a1b43..6a1b9b selects all expected weighted intervals; Speeding weight4 equals Graffiti/Pie/TP/Flashing; total40.5.
+PASS: Speeding weight0 prevents selection while retaining stock weights. Controlled RNG and prefiltered candidate list are mocked; monthly simulator not run.

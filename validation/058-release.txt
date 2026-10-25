@@ -1,0 +1,3 @@
+PASS: release has no logging/file-I/O or hotkey polling imports; held shortcut is ignored.
+PASS: native monthly selection still completes a full scene silently; shutdown stays silent.
+Emulated Win32/game services only; no live-game test.

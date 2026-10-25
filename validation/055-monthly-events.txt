@@ -1,0 +1,1 @@
+PASS: markers persist after actor removal; next ordinary/empty batch clears them; Speeding re-selection immediately starts a second independent scene while the first advances; other icons unchanged

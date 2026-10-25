@@ -1,0 +1,2 @@
+PASS: supplied EXE6197f0 returns road-piece height at world X/Z using x87 float; three planes, both triangles and nonzero tile origin.
+Simulation initialization of native cell-width reciprocal is mocked. Actual renderer/game not run.

@@ -1,0 +1,4 @@
+PASS: Example-based DAT contains new type14 Speed Traps, exact description, $60 constant cost, zero population multiplier and no switching fee.
+PASS: original EXE lookup and checkbox query recognize the unique ID; native monthly aggregation gives $60 when checked and $0 when unchecked.
+PASS: one-million population does not increase cost; repeated native monthly updates remain $60.
+Native logic in emulation; resource loading, saved-city roundtrip and live ordinance UI still need in-game confirmation.

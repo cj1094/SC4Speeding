@@ -1,0 +1,3 @@
+CONFIRMED old DLL null dereference: vehicle manager missing after bind
+CONFIRMED old DLL null dereference: pedestrian manager missing after bind
+Emulated DLL with mocked services only; no live-game test.

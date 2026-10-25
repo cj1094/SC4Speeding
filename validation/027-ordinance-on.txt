@@ -1,0 +1,1 @@
+PASS: Speed Traps blocks automatic/hotkey scenes, or cancels active cars/lights cleanly; native checkbox is only read.

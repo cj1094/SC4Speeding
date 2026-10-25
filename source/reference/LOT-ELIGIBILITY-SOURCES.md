@@ -1,0 +1,1 @@
+SDK declarations retrieved from https://github.com/nsgomez/gzcom-dll/tree/master/gzcom-dll/include on 2026-10-23. Included headers retain their upstream LGPL notices. They are reference snapshots, not linked dependencies. plugin.cpp uses only the documented x86 virtual entry points described in NATIVE-EVIDENCE.md.

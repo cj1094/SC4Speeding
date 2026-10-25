@@ -1,0 +1,1 @@
+PASS: same-tick hotkey restart during vehicle fade and officer phase; all old actors/lights/marker cleaned; held-key debounce; camera follows new scene

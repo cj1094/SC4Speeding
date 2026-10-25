@@ -1,0 +1,3 @@
+PASS: original EXE network methods return four cyclic edge bits for all16 masks.
+PASS: combined network mask exposes a side branch absent from the Road-only mask.
+Original code in emulation; actual game placement remains unverified.

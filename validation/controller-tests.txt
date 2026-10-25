@@ -1,0 +1,1 @@
+7 sequence scenarios passed; no game integration tested

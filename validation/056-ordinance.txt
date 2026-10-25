@@ -1,0 +1,3 @@
+PASS: R$ requirement1000; CS$ requirement100; only these two exemplar values changed.
+PASS: one police station, mayor+5, monthly cost60+10*stations and both LTEXTs unchanged.
+Static data validation only; not tested in-game.

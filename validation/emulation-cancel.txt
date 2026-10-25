@@ -1,0 +1,1 @@
+PASS: mid-stop city shutdown removes owned actors, disables flashing lights and restores native hook

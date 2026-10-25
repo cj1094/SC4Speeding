@@ -1,0 +1,22 @@
+PASS: x86 DLL entry/export, MSVC COM callbacks, lifecycle subscription, moving fade, silent lights, camera pan, curve, marker and cleanup
+Simulated Win32 and game interfaces only; actual SimCity 4 behavior NOT tested.
+GZDllGetGZCOMDirector: game requested plugin director.
+SC4Speeding 0.23 experimental native DLL loaded; in-game behavior unverified.
+Ready. Automatic scene interval active; Ctrl+Shift+F10 requests a scene.
+Speed Traps: waiting for host registration.
+City attached; isolated incident-array hook installed.
+Crime UI: native panel height changed from 428 to 452, growing upward.
+Speed Traps NOT REGISTERED: check SC4CustomOrdinanceHost.log and its ordinance folder path; SC4Speeding-SpeedTraps.dat must be in that folder.
+Speed Traps: made registered ordinance available in the menu.
+Scene police isolated: nearby-traffic pull-over effect suppressed.
+Police flashing lights enabled; audio disabled.
+Moving fade-in started: both cars advance immediately.
+Curved pull-over started: forward travel and outward steering, followed by braking.
+Staggered shoulder stop complete; both cars grounded and aligned.
+Parked scene collision disabled; cached traffic followers refreshed.
+Officer created at driver-side walk anchor.
+Officer walking to driver.
+Officer reached door; turning to face parked car.
+Traffic stop completed; actors and marker removed.
+City detached.
+

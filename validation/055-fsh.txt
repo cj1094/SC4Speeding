@@ -1,0 +1,4 @@
+PASS: original EXE 0x800860 loader accepts dedicated SHPI gauge; 16x16; one mip.
+PASS: native loader retains all 256 BGRA pixels exactly; no PNG decoder or stock icon replacement.
+Original loader in emulation; actual game minimap rendering still unverified.
+PASS: the same native loader rejects the old PNG payload.

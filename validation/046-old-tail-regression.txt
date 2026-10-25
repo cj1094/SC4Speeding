@@ -1,0 +1,2 @@
+Expected failure reproduced with previous0.43 DLL using steering-tail-west regression fixture:
+At15900ms car position(64,.05,98), heading(0,0,1); at16000ms same position, heading(-1,0,0). Old DLL fails stationary-yaw assertion. New0.46 DLL passes.

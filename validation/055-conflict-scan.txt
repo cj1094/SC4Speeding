@@ -1,0 +1,2 @@
+No other files overriding these three panel resources were found in the supplied folders.
+Runtime DLL hooks and changes outside these resources are not covered.

@@ -1,0 +1,3 @@
+PASS: native GetFlag67 and SetFlag68 preserve instance ID and clean 1/2 arguments correctly.
+CONFIRMED: old slot66 writes instance data; old setter via slot67 leaves one stack argument behind.
+Native ABI emulation only; city-load crash recovery still requires in-game verification.

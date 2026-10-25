@@ -1,0 +1,1 @@
+PASS: junction-only/missing/ending road rejected without showing a scene

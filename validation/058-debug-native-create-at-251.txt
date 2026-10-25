@@ -1,0 +1,30 @@
+PASS: original capped call rejected; owned speeder and police created, scene completed; maxima untouched and no native reclaim calls
+PASS: x86 DLL entry/export, MSVC COM callbacks, lifecycle subscription, moving fade, silent lights, camera pan, curve, marker and cleanup
+Simulated Win32 and game interfaces only; actual SimCity 4 behavior NOT tested.
+GZDllGetGZCOMDirector: game requested plugin director.
+SC4Speeding 0.58 experimental native DLL loaded; in-game behavior unverified.
+Ready. Native monthly crime selection active (weight4); Ctrl+Shift+F10 requests a test scene.
+Native Speeding category loaded: weight4 and nonzero lot filters.
+Speed Traps: waiting for host registration.
+City attached; isolated incident-array hook installed.
+Crime UI rect root before 461 253 1007 681
+Crime UI rect container before 461 253 1007 681
+Crime UI rect container before 0 0 546 428
+Crime UI rect backing before 0 0 546 428
+Crime UI rect container before 0 298 546 428
+Crime UI rect container before 0 346 546 476
+Crime UI: Crime selected; compatible panel enlarged upward by 20 pixels.
+Speed Traps: registered; ordinance host controls eligibility requirements.
+Native monthly crime selection: Speeding visual queued near selected lot.
+Scene police isolated: nearby-traffic pull-over effect suppressed.
+Police flashing lights enabled; audio disabled.
+Moving fade-in started: both cars advance immediately.
+Curved pull-over started: forward travel and outward steering, followed by braking.
+Staggered shoulder stop complete; both cars grounded and aligned.
+Parked scene collision disabled; cached traffic followers refreshed.
+Officer created at driver-side walk anchor.
+Officer walking to driver.
+Officer reached door; turning to face parked car.
+Traffic stop completed; actors removed; marker retained until next crime selection.
+City detached.
+

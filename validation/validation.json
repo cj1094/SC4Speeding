@@ -1,0 +1,106 @@
+{
+  "status": "experimental; not tested in a running SimCity 4 game",
+  "target": "32-bit Windows, Microsoft C++ ABI",
+  "exports": [
+    "GZDllGetGZCOMDirector"
+  ],
+  "imports": [
+    "KERNEL32.dll",
+    "USER32.dll"
+  ],
+  "files": {
+    "SC4Speeding.dll": {
+      "bytes": 28160,
+      "sha256": "21a4373efd7fd39e694a4a4552dbeb4eba3807a6f1406af4ce7ef33f880bb6cb"
+    },
+    "SC4Speeding.dat": {
+      "bytes": 282,
+      "sha256": "f9da1e694304a7cee26459143ef48653808a1aa0833a9ee373251c1d8a169bbc"
+    },
+    "SC4Speeding.ini": {
+      "bytes": 354,
+      "sha256": "20fadf3abe8c5efc3d0b530bd5547844137e564f9d8d2657f5b4962422f71fa9"
+    }
+  },
+  "tests": {
+    "portable_sequence_scenarios": 7,
+    "compiled_dll_emulated_scenarios": [
+      "success",
+      "unsupported",
+      "conflict",
+      "cancel",
+      "paused",
+      "missing-message",
+      "missing-allocator",
+      "police-conflict",
+      "drive-correction",
+      "intersection-retry",
+      "intersection-only",
+      "missing-road",
+      "road-end",
+      "stop-alignment",
+      "shoulder-left",
+      "shoulder-custom",
+      "shoulder-right",
+      "curve-east",
+      "curve-west",
+      "curve-reverse",
+      "camera-hotkey",
+      "camera-refocus",
+      "camera-no-renderer",
+      "lights-unavailable",
+      "terrain-slope",
+      "terrain-crest",
+      "terrain-missing",
+      "terrain-invalid",
+      "camera-slope",
+      "cancel-fade",
+      "officer-placement",
+      "officer-idle-drift",
+      "officer-left"
+    ],
+    "actual_game_test": false,
+    "traffic_isolation_checks": [
+      "repeated emergency enable attempts suppressed",
+      "unrelated stock patrol effect preserved",
+      "all other 200 slots and RTTI locator preserved",
+      "original table restored on completion and city shutdown",
+      "conflicting police interface cancels scene"
+    ],
+    "native_network_interfaces": "SDK declarations with simulated callbacks; not tested in game",
+    "native_reference_helpers": [
+      "0x0080B830 matrix column convention for four headings",
+      "0x00509440 forwards 56-byte transform with correct thiscall cleanup"
+    ],
+    "terrain_alignment": "Compiled DLL math checked against independently supplied slope/crest surfaces and native transform callback; real terrain/rendering not tested."
+  },
+  "loading_fix": "Correct SDK game-facing export; log at director entry.",
+  "service_lookup_fix": "service ID precedes interface ID for message and allocator services; emulator validates exact pairs",
+  "version": "0.10",
+  "nearby_traffic_fix": "Private scene-patrol table redirects emergency-effect slot 194 to native disable call; stock tables and other slots unchanged.",
+  "formation_fix": "Finish steering while still rolling; lead curve starts first, police .65 seconds later, same final centreline and radii-aware gap.",
+  "native_scene_walk_deadline_seconds": 30,
+  "supported_scene_network_types": [
+    "Road",
+    "Street"
+  ],
+  "shoulder_shift": "Default200cm full typical car width; corrected RHD/LHD roadside vector retained.",
+  "motion": {
+    "vehicle_fade_seconds": 1.5,
+    "straight_drive_seconds": 2,
+    "drive_speed_meters_per_second": 6,
+    "lead_curve_seconds": 3,
+    "police_curve_delay_seconds": 0.65,
+    "police_curve_seconds": 3,
+    "steering_completion_fraction": 0.7,
+    "kinematic": true,
+    "pavement_edge_measurement": false,
+    "terrain_height_and_normal_sampling": true,
+    "full_native_transform_bytes": 56,
+    "vehicle_exit_fade_seconds": 1.5
+  },
+  "police_visual": "Native visual selector2 at actor slot99, no combined emergency switch, no StartSFX or audio stream.",
+  "camera": "Hotkey pans native camera ground target to predicted stop centre; refocus while scene active; automatic scenes do not pan; zoom and rotation untouched.",
+  "officer_route": "Explicit hidden spawn at driver-side anchor, held throughout fade-in; bounded continuous walking, .4-second turn to face parked car at arrival.",
+  "officer_arrival_turn_seconds": 0.4
+}

@@ -1,0 +1,1 @@
+PASS: losing menu availability cancels active sequence and cleans lights/actors

@@ -1,0 +1,4 @@
+PASS: Example-based DAT contains new type14 Speed Traps, exact description, $60 constant cost, police factor -10, +5 mayor rating, three minimum-one requirements and no switching fee.
+PASS: original EXE lookup and checkbox query recognize the unique ID; native monthly aggregation gives $60 when checked and $0 when unchecked.
+PASS: one-million population does not increase cost; repeated native monthly updates remain $60.
+Original EXE simple-ordinance baseline only: host eligibility/factor/effect execution and live saved-city behavior are not tested by this native baseline. Variable costs additionally checked from parsed DAT values.

@@ -1,0 +1,1 @@
+PASS: activation/factory rejection retained; detailed diagnostics removed

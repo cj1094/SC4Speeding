@@ -1,0 +1,3 @@
+PASS: vehicle manager loss safely cleans up; no marker/lights/double removal; next scene recovers
+PASS: pedestrian manager loss safely cleans up; no marker/lights/double removal; next scene recovers
+Emulated DLL with mocked services only; no live-game test.

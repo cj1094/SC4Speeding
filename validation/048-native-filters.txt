@@ -1,0 +1,4 @@
+PASS: shipped DBPF filter arrays produce the expected nonzero native masks.
+PASS: actual native scalar Uint8 setter leaves count0; crime empty-array mask is0 (rejects all lots).
+PASS: explicit Uint8 array[1] gives wealth mask1; array[1,2] purpose mask3; array[0] condition maskFFFFFFFF.
+Native variant and mask code run in emulation; serialized arrays are additionally checked structurally. Full game not run.

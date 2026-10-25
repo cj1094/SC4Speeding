@@ -1,0 +1,1 @@
+PASS: ui-stock-compact original stock compact shape supported; unknown near-match rejected

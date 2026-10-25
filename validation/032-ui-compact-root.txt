@@ -1,0 +1,1 @@
+PASS: ui-compact-root original stock compact shape supported; unknown near-match rejected

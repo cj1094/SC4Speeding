@@ -1,0 +1,4 @@
+PASS: original EXE collision filter accepts moving collision-enabled vehicles.
+PASS: clearing Collide on parked scene cars excludes them from the native candidate filter.
+PASS: an unrelated vehicle remains eligible and its flags unchanged.
+Native filter in emulation; live traffic resumption still requires in-game confirmation.

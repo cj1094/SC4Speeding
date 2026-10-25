@@ -1,0 +1,4 @@
+PASS: legend is exact supplied 16x16 reference.
+PASS: minimap preserves every reference pixel except designated opaque black background.
+PASS: all three layouts use 16px icon/label controls; backing/footer extension20px.
+PASS: native crime exemplar bytes unchanged.

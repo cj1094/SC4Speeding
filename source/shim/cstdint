@@ -1,0 +1,3 @@
+#pragma once
+#include <stdint.h>
+namespace std { using ::uint64_t; using ::uint32_t; }

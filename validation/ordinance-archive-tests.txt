@@ -1,0 +1,1 @@
+PASS: sc4@0.2.24 reads one type14 exemplar, exact LTEXT keys/texts, signed $60 cost and compressed-resource directory.

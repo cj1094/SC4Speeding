@@ -1,0 +1,3 @@
+PASS: original EXE 7026f0 selects the configured animation factor at all three speeds.
+PASS: switching speed changes the returned factor immediately; no fixed multiplier assumed.
+Native getter in emulation; live animation/menu behavior still needs confirmation.

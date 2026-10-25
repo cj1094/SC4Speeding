@@ -1,0 +1,4 @@
+PASS: original EXE follower cache stays attached when only Collide is cleared.
+PASS: native 54fbc0 -> 551c20 -> 54fc30 -> 5059c0 selects the next eligible car.
+PASS: native AddRef/Release balances; unrelated follower is unchanged; empty lane clears leader.
+Native functions in emulation; actual game traffic still requires confirmation.

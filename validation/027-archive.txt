@@ -1,0 +1,1 @@
+PASS: sc4@0.2.24 reads one type14 exemplar, exact LTEXT keys/texts, base cost, police station multiplier, eligibility thresholds, mayor rating and compressed-resource directory.
